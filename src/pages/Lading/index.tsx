@@ -39,7 +39,7 @@ export default function Landing() {
             className="give-classes"
           >
             <FiInbox size={30} />
-            Entrar em contato
+            Informações
           </a>
         </div>
 
