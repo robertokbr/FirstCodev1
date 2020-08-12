@@ -1,7 +1,14 @@
 import React from 'react';
-import Landing from './pages/Lading';
 import './assets/styles/global.css';
+import { BrowserRouter } from 'react-router-dom';
+import Routes from './routes';
 
-const App: React.FC = () => <Landing />;
+const App: React.FC = () => {
+  return (
+    <BrowserRouter>
+      <Routes />
+    </BrowserRouter>
+  );
+};
 
 export default App;
