@@ -2,6 +2,7 @@ import React from 'react';
 import { FiLinkedin, FiLogIn, FiInbox } from 'react-icons/fi';
 import './styles.css';
 
+import { Link } from 'react-router-dom';
 import logoImg from '../../assets/images/logo.svg';
 import landingImg from '../../assets/images/landing.svg';
 
@@ -27,13 +28,10 @@ export default function Landing() {
         />
 
         <div className="buttons-container">
-          <a
-            href="https://www.notion.so/CONFIGURANDO-AMBIENTE-f44ef4f7c8f54e57b94902143c1a94f8"
-            className="study"
-          >
+          <Link to="/content" className="study">
             <FiLogIn size={30} />
-            Começar
-          </a>
+            Entrar
+          </Link>
           <a
             href="mailto:robertojuniordev@gmail.com?subject=Informações%20sobre%20o%20curso%20FirstCode"
             className="give-classes"

@@ -15,7 +15,7 @@
 }
 
 .hero-image {
-  width: 100%;
+  width: 80%;
 }
 
 .logo-container {
@@ -64,10 +64,10 @@
   background: var(--color-secundary);
 }
 .buttons-container a.study:hover {
-  background: var(--color-primary-light);
+  background: var(--color-neon-purple);
 }
 .buttons-container a.give-classes:hover {
-  background: var(--color-secundary-dark);
+  background: var(--color-neon-green);
 }
 
 .total-connections  {
@@ -113,6 +113,7 @@
   .hero-image {
     grid-area: hero;
     justify-self: end;
+    width: 100%;
   }
   .buttons-container {
     grid-area: buttons;
@@ -128,7 +129,7 @@
   }
 }
 
-@media (max-height: 736px) {
+@media (max-width: 450px) {
 
   .hero-image {
 width:  70%;
@@ -145,9 +146,7 @@ margin-left: 17%;
     margin-top: 0;
   }
   .buttons-container a {
-    width: 30rem;
-    height: 10.4rem;
-    border-radius: 0.8rem;
+
     font: 700 1.8rem Archivo;
     flex-direction: column;
     justify-content: space-evenly;
