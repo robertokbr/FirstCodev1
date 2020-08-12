@@ -1,6 +1,5 @@
 import React from 'react';
 import './styles.css';
-import { title } from 'process';
 import PageHeader from '../../components/PageHeader';
 import ContentCard from '../../components/ContentCard';
 
