@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles.css';
 import PageHeader from '../../components/PageHeader';
+import ContentCardImage from '../../components/ContentCardImage';
 import ContentCard from '../../components/ContentCard';
 
 const ContentPage: React.FC = () => {
@@ -8,17 +9,25 @@ const ContentPage: React.FC = () => {
     <div id="page-teacher-list">
       <PageHeader title="Bem vindo ao FirstCode!" />
       <main>
-        <a href="https://www.notion.so/Entrando-na-comunidade-f44ef4f7c8f54e57b94902143c1a94f8">
-          <ContentCard
-            cardData={{
-              content: `Ter uma comunidade para compartilhar dúvidas,
+        <ContentCardImage
+          cardData={{
+            content: `Ter uma comunidade para compartilhar dúvidas,
             criar projetos em grupo, e programar junto é essencial! entre no nosso
             server do Discord e vamos codar!`,
-              tags: `Discord, Starter`,
-              title: `Comece Por Aqui 📚`,
-            }}
-          />
-        </a>
+            tags: ['Discord', 'Starter'],
+            title: `Comece Aqui 📚`,
+            image: `https://dashboard.snapcraft.io/site_media/appmedia/2017/04/discord.png`,
+          }}
+        />
+        <ContentCard
+          cardData={{
+            content: `Ter uma comunidade para compartilhar dúvidas,
+            criar projetos em grupo, e programar junto é essencial! entre no nosso
+            server do Discord e vamos codar!`,
+            tags: ['Discord', 'Starter'],
+            title: `Configurando ambiente de desenvolvimento 💻⚙`,
+          }}
+        />
       </main>
     </div>
   );

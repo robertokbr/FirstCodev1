@@ -6,12 +6,14 @@ interface CardData {
   cardData: {
     title?: string;
     content?: string;
+    image?: string;
     tags?: string[];
   };
 }
-const ContentCard: React.FC<CardData> = ({ cardData }) => {
+
+const ContentCardImage: React.FC<CardData> = ({ cardData }) => {
   return (
-    <Container>
+    <Container image={cardData.image}>
       <article className="content-item">
         <header>
           <img
@@ -24,9 +26,8 @@ const ContentCard: React.FC<CardData> = ({ cardData }) => {
           </div>
         </header>
 
-        <p>{cardData.content}</p>
-
         <footer>
+          <p>{cardData.content}</p>
           <div>
             Tags:
             <strong>
@@ -44,4 +45,4 @@ const ContentCard: React.FC<CardData> = ({ cardData }) => {
   );
 };
 
-export default ContentCard;
+export default ContentCardImage;
