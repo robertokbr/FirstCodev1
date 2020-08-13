@@ -7,6 +7,7 @@ interface CardData {
     title?: string;
     content?: string;
     tags?: string[];
+    link?: string;
   };
 }
 const ContentCard: React.FC<CardData> = ({ cardData }) => {
@@ -34,7 +35,7 @@ const ContentCard: React.FC<CardData> = ({ cardData }) => {
                 <a href={`#${tag}`}>{tag}</a>
               ))}
             </strong>
-            <a href="https://www.notion.so/CONFIGURANDO-AMBIENTE-f44ef4f7c8f54e57b94902143c1a94f8">
+            <a href={cardData.link}>
               <FiArrowRight size={20} />
             </a>
           </div>
