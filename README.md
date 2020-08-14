@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://github.com/robertokbr/FirstCodev1/blob/master/frontend/src/assets/images/logo.svg" width="250px" /><br>
+  <img src="https://github.com/robertokbr/FirstCodev1/blob/master/src/assets/images/logo.svg" width="250px" /><br>
   <br>
  FirstCode
 </h1>
