@@ -1,28 +1,28 @@
 <h1 align="center">
-  <img src="https://github.com/robertokbr/FCLearning/blob/master/frontend/src/assets/images/logo.svg" width="250px" /><br>
+  <img src="https://github.com/robertokbr/FirstCodev1/blob/master/frontend/src/assets/images/logo.svg" width="250px" /><br>
   <br>
- FCLearning
+ FirstCode
 </h1>
- <img alt="Leading" src="https://github.com/robertokbr/FCLearning/blob/master/.Github/home.png">
+ <img alt="Leading" src="https://github.com/robertokbr/FirstCodev1/blob/master/.Github/home.png">
 <h4 align="center">
-A platform to join develop enthusiasts into professional developers to share knowledge 
+A platform to join develop enthusiasts into professional developers to share knowledge
 </h4>
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/robertokbr/FCLearning.svg">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/robertokbr/FirstCodev1.svg">
 
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/robertokbr/FCLearning.svg">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/robertokbr/FirstCodev1.svg">
 
-  <a href="https://www.codacy.com/app/robertokbr/FCLearning?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=robertokbr/FCLearning&amp;utm_campaign=Badge_Grade">
+  <a href="https://www.codacy.com/app/robertokbr/FirstCodev1?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=robertokbr/FirstCodev1&amp;utm_campaign=Badge_Grade">
     <img alt="Codacy grade" src="https://img.shields.io/codacy/grade/1b577a07dda843aba09f4bc55d1af8fc.svg">
   </a>
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/robertokbr/FCLearning.svg">
-  <a href="https://github.com/robertokbr/FCLearning/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/robertokbr/FCLearning.svg">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/robertokbr/FirstCodev1.svg">
+  <a href="https://github.com/robertokbr/FirstCodev1/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/robertokbr/FirstCodev1.svg">
   </a>
 
-  <a href="https://github.com/robertokbr/FCLearning/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/robertokbr/FCLearning.svg">
+  <a href="https://github.com/robertokbr/FirstCodev1/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/robertokbr/FirstCodev1.svg">
   </a>
 </p>
 
@@ -47,10 +47,10 @@ To clone and run this application, you'll need [Git](https://git-scm.com), [Node
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/robertokbr/FCLearning
+$ git clone https://github.com/robertokbr/FirstCodev1
 
 # Go into the repository
-$ cd FCLearning
+$ cd FirstCodev1
 
 # Install dependencies
 $ yarn install
