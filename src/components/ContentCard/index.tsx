@@ -8,6 +8,8 @@ interface CardData {
     content?: string;
     tags?: string[];
     link?: string;
+    profile?: string;
+    name?: string;
   };
 }
 const ContentCard: React.FC<CardData> = ({ cardData }) => {
@@ -15,13 +17,10 @@ const ContentCard: React.FC<CardData> = ({ cardData }) => {
     <Container>
       <article className="content-item">
         <header>
-          <img
-            src="https://media-exp1.licdn.com/dms/image/C4D03AQHpWNC3325tsQ/profile-displayphoto-shrink_200_200/0?e=1602115200&v=beta&t=BCUEHoUzoIGmcSEu7dPRI3E9iVn3yODkoI6DtgJiHGo"
-            alt="Roberto Junior"
-          />
+          <img src={cardData.profile} alt="blog manager" />
           <div>
             <strong>{cardData.title}</strong>
-            <span>Roberto Junior</span>
+            <span>{cardData.name}</span>
           </div>
         </header>
 

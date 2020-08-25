@@ -7,12 +7,17 @@ interface CardProps {
 
 export const Container = styled.div<CardProps>`
   .content-item {
-    border: 1px solid var(--color-line-in-white);
+    border: 1.5px solid var(--color-primary);
     border-radius: 0.8rem;
     margin-top: 2.4rem;
     overflow: hidden;
     background: #2a2d2d;
     color: var(--color-white);
+    transition: 0.2s;
+    &:hover {
+      border: 1.5px solid var(--color-neon-purple);
+      transform: scale(1.01);
+    }
   }
 
   .content-item header {
@@ -40,7 +45,7 @@ export const Container = styled.div<CardProps>`
         font-size: 1.6rem;
         display: block;
         margin-top: 0.4rem;
-        color: var(--color-text-complement);
+        color: #fff;
       }
     }
   }

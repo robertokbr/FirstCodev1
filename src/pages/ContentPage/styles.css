@@ -2,8 +2,15 @@
 width: 100vw;
 min-height: 100vh;
 height: 100%;
-background: var(--color-white);
+background: #201f24;
 
+}
+
+section ul {
+  display: flex;
+  flex:1;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .page-header {
@@ -56,7 +63,16 @@ opacity: 0.6;
   width: 90%;
 }
 
+@media(min-width: 1280px){
+  section{
+    position: absolute;
+  }
 
+  section ul{
+    display: block;
+  }
+
+}
 @media(min-width: 700px){
  #page-teacher-list {
     max-width: 100%;
@@ -82,8 +98,6 @@ opacity: 0.6;
   margin: 0 auto;
 
 }
-
-
-
 }
+
 

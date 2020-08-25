@@ -4,11 +4,16 @@ import { shade } from 'polished';
 export const Container = styled.div`
   .content-item {
     background: var(--color-box-base);
-    border: 1px solid var(--color-line-in-white);
+    border: 1.5px solid var(--color-line-in-white);
     border-radius: 0.8rem;
     margin-top: 2.4rem;
     overflow: hidden;
     color: var(--color-text-title);
+    transition: 0.2s;
+    &:hover {
+      border: 1.5px solid var(--color-neon-green);
+      transform: scale(1.01);
+    }
   }
 
   .content-item header {
